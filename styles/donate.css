@@ -47,9 +47,6 @@
   padding: 10px 15px;
 }
 /*------------------------------------ donate amount section style -----------------------------------------*/
-.donate-amount{
-    
-}
 .section-title{
     text-align: center;
     font-size: 45px;
@@ -181,4 +178,62 @@
     margin-top: 30px;
     margin-left: 80px;
     padding: 10px 15px;
+}
+/* ------------------------subscription section -------------------------------------*/
+.subscription{
+    display: flex;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.subscription-form{
+    width: 800px;
+    height: 200px;
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    border: none;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.email{
+    width: 250px;
+    height: 50px;
+    background-color: #D9D9D9;
+    padding-left: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+}
+.btn-subscribe{
+    color: #FFFFFA;
+    width: 160px;
+    height: 50px;
+    background-color: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+}
+/*------------------------------------------------ footer styles--------------------------------------- */
+.footer{
+    height: 180px;
+    width: 100%;
+    background-color: #0B0D17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-title{
+    color: #FF5959;
+    font-weight: 400px;
+    font-size: 36px;
+    font-family: Lobster;
+    position: absolute; 
+    
+}
+.footer-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    color: #FFFFFA;
 }
